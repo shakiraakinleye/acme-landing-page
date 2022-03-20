@@ -1,0 +1,68 @@
+#h1                 {
+  font-size: 45px;
+  font-family: Cochin;
+  margin-bottom: -2%;
+  text-align: center;
+}
+p, .box-1, .box-2, .box-3  {
+  font-size: 25px;
+  font-family: Cambria;
+  text-align: center;
+}
+.section-one      {
+  background-image:url('images/beach.jpg');
+  background-repeat: no-repeat;
+  background-attachment:scroll;
+  background-size: cover;
+  background-position: center;              
+  padding: 15%;
+}
+.section-one__div   { 
+  text-align: center;
+  color: rgb(99, 66, 4);
+}
+.section-one__a     {
+  border: 2px solid rgb(99, 66, 4);
+  border-radius: 10px;
+  color: rgb(99, 66, 4);
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-right: 20px;
+  padding-left: 20px;
+  font-size: 20px;
+}
+a:hover           {
+  background-color: rgba(99, 66, 4, 0.7);
+  color: white;
+  cursor: pointer;
+} 
+.section-two        {
+  background-color: rgb(99, 66, 4);
+  color: white;
+  padding: 3%;
+}
+.section-three      {
+  background-color: white;
+  color: rgb(99, 66, 4);
+  padding: 3%;
+}
+.box-1              {
+  background-color: rgb(99, 66, 4);
+  color: white;
+  padding: 2%;
+}
+.box-2              {
+  background-color: white;
+  color: rgb(99, 66, 4);
+  padding: 2%;
+}
+.box-3              {
+  background-color: rgb(99, 66, 4);
+  color: white;
+  padding: 2%;
+}
+.box-1, .box-2, .box-3 {
+  float: left;
+  box-sizing: border-box;
+  width: 33.3%; 
+}
